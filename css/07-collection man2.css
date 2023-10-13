@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family="Inter":wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Da 2', sans-serif;
+    font-family: '"Inter"', sans-serif;
+    font-family: '"Plus Jakarta Sans"', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 28px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customar__profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.customar__name {
+    color: var(--black, #222950);
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin: 0 0 5px 0;
+}
+
+.customar__title {
+    color: var(--gray, #8A94A6);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.714%;
+    /* 18.72px */
+    letter-spacing: 0.42px;
+    margin: 0;
+}
+
+.status__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 32px;
+}
+
+.status {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    padding: 25px 50px 25px 18px;
+}
+
+.status:hover {
+    border: 1px solid rgba(252, 161, 57, 0.57);
+}
+
+.text p {
+    color: var(--black-2, #595F84);
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0;
+    /* 183.333% */
+}
+
+.text h2 {
+    color: #05BB42;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0;
+    /* 137.5% */
+}
+
+.text-2 p {
+    color: var(--black-2, #595F84);
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0;
+    /* 183.333% */
+}
+
+.text-2 h2 {
+    color: #FCA139;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    margin: 0;
+    /* 22.4px */
+}
+
+
+
+.status-3 {
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(5, 46, 128, 0.05);
+    padding: 25px 50px 25px 18px;
+}
+
+.text-3 p {
+    color: var(--black-2, #595F84);
+    font-family: "Plus Jakarta Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 0;
+    /* 183.333% */
+}
+
+.text-3 h2 {
+    color: #007AFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0;
+    /* 137.5% */
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 28px;
+}
+
+.total h2 {
+    color: var(--black, #222950);
+    font-family: Plus Jakarta Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.714%;
+    letter-spacing: 0.45px;
+    text-transform: capitalize;
+}
+
+
+.pending-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(46, 49, 133, 0.08);
+    background: #FFF;
+    padding: 15px;
+    margin-bottom: 18px;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-name p {
+    color: var(--black, #222950);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Baloo Da 2";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.pending {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pending button {
+    padding: 6px 16px;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: rgba(138, 148, 166, 0.06);
+}
